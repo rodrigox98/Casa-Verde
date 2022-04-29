@@ -10,3 +10,26 @@ body{
     background: url(../../img/fundo-textura.png), url(../../img/fundo-linhas.png);
     background-position:center;
 }
+
+.container{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.titulo{
+    font-size: var(--tamanho-titulo);
+}
+
+.titulo--destaque{
+    font-family: var(--familia-titulo-destaque);
+}
+
+.alinhamento--esquerda{
+    text-align:left;
+}
+.alinhamento--meio{
+    text-align:center;
+}
+
+.texto{
+    line-height: 26px;
+}
