@@ -19,11 +19,16 @@
 .produto__imagem{
     position: absolute;
     top: 50%;
-    left: -8rem;
+    left: -6.5rem;
 
     transform: translateY(-50%);
     z-index: 1;
-    width: 18.75rem;
+    width: 17.75rem;
+    
+}
+.produto__imagem--pagina{
+    position: relative;
+    left: 3em;
 }
 
 .produto__conteudo{

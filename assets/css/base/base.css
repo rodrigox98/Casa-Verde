@@ -21,6 +21,7 @@ body{
 
 .titulo--destaque{
     font-family: var(--familia-titulo-destaque);
+    font-weight: bold;
 }
 
 .alinhamento--esquerda{
@@ -32,4 +33,12 @@ body{
 
 .texto{
     line-height: 26px;
+}
+.texto__leiaMais{
+    line-height: 26px;
+    font-size: medium;
+    color: #FFCB47;
+}
+.titulo--espacamento{
+    padding: 2rem;
 }
